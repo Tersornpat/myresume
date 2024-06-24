@@ -1,50 +1,35 @@
 import { BrowserRouter as Router } from 'react-router-dom';
+import React, { useState } from 'react';
 import Home from './components/details/Home';
 import About from './components/details/About';
 import Projects from './components/details/Projects';
 import Resume from './components/details/Resume';
 import Contact from './components/details/Contact';
 import './App.css';
+import Nav from './components/nav/Nav';
+
+const height = 20;
 
 function App() {
-
-  const scrollToSection = (elementId) => {
-    const element = document.getElementById(elementId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+  const [navHeight, setNavHeight] = useState(0);
   return (
     <Router basename="/myresume">
-      <div className="App">
-        <nav className="sidebar">
-          <div class="logo">
-            Sornpat Am.
-          </div>
-          <ul>
-            <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a></li>
-            <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About Me</a></li>
-            <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
-            <li><a href="#resume" onClick={(e) => { e.preventDefault(); scrollToSection('resume'); }}>Resume</a></li>
-            <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
-          </ul>
-        </nav>
-
+      <div className="App" >
+        <Nav setNavHeight={setNavHeight} />
         <main className="content">
-          <section id="home">
+          <section id="home" style={{ paddingTop: `${navHeight + height}px` }}>
             <Home />
           </section>
-          <section id="about">
+          <section id="about" style={{ paddingTop: `${navHeight + height}px` }}>
             <About />
           </section>
-          <section id="projects">
+          <section id="projects" style={{ paddingTop: `${navHeight + height}px` }}>
             <Projects />
           </section>
-          <section id="resume">
+          <section id="resume" style={{ paddingTop: `${navHeight + height}px` }}>
             <Resume />
           </section>
-          <section id="contact">
+          <section id="contact" style={{ paddingTop: `${navHeight + height}px` }}>
             <Contact />
           </section>
         </main>

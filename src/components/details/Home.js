@@ -4,6 +4,9 @@ function Home() {
     return (
         <div>
             <h1>Welcome to My CV Website</h1>
+            <div className='myid'>
+                
+            </div>
             <p>I'm a [Your Profession] passionate about [Your Interests].</p>
         </div>
     );
