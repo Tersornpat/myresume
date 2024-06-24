@@ -1,33 +1,53 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Home from './components/details/Home';
+import About from './components/details/About';
+import Projects from './components/details/Projects';
+import Resume from './components/details/Resume';
+import Contact from './components/details/Contact';
 import './App.css';
 
 function App() {
+
+  const scrollToSection = (elementId) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Router basename="/myresume">
       <div className="App">
-        <nav>
+        <nav className="sidebar">
+          <div class="logo">
+            Sornpat Am.
+          </div>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Me</Link></li>
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a></li>
+            <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About Me</a></li>
+            <li><a href="#projects" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a></li>
+            <li><a href="#resume" onClick={(e) => { e.preventDefault(); scrollToSection('resume'); }}>Resume</a></li>
+            <li><a href="#contact" onClick={(e) => { e.preventDefault(); scrollToSection('contact'); }}>Contact</a></li>
           </ul>
         </nav>
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <main className="content">
+          <section id="home">
+            <Home />
+          </section>
+          <section id="about">
+            <About />
+          </section>
+          <section id="projects">
+            <Projects />
+          </section>
+          <section id="resume">
+            <Resume />
+          </section>
+          <section id="contact">
+            <Contact />
+          </section>
+        </main>
       </div>
     </Router>
   );
