@@ -14,10 +14,10 @@ function App() {
   const [navHeight, setNavHeight] = useState(0);
   return (
     <Router basename="/myresume">
-      <div className="App" >
+      <div>
         <Nav setNavHeight={setNavHeight} />
         <main className="content">
-          <section id="home" style={{ paddingTop: `${navHeight + height}px` }}>
+          <section id="home" className="bg-light" style={{ paddingTop: `${navHeight + height}px` }}>
             <Home />
           </section>
           <section id="about" style={{ paddingTop: `${navHeight + height}px` }}>
