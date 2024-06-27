@@ -6,7 +6,7 @@ function Home() {
         <div className='container px-3'>
             <div className='row'>
                 <div className='col-lg-6 p-2 d-flex justify-content-center align-items-center'>
-                    <img className='image-resize' src='https://media.discordapp.net/attachments/1115203267954221116/1254687311468171264/penguin.png?ex=667a661e&is=6679149e&hm=1c4ca835baad16da309693dd745a7cdb2ce9d79765d110d62a77e6e770117113&=&format=webp&quality=lossless&width=525&height=350'></img>
+                    <img className='image-resize' src='https://media.discordapp.net/attachments/1115203267954221116/1254687311468171264/penguin.png?ex=667e5a9e&is=667d091e&hm=61f317d20e45a2874faa7933eabed57bf232c5fab3ee2f0001f28c9cc1221ec7&=&format=webp&quality=lossless'></img>
                 </div>
                 <div className='col-lg-6'>
                     <div className='mt-5'>

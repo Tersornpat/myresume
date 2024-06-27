@@ -6,6 +6,10 @@ body {
   font-family: "Trebuchet MS", sans-serif;
 }
 
+.background-lg {
+  background-color: #f4f6f8;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -50,10 +54,14 @@ nav ul li a {
 }
 
 section {
-  padding-top: 20px;
+  padding-top: 0px;
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
+}
+
+.img-spliter{
+  width: 100%;
 }
