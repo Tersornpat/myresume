@@ -1,21 +1,61 @@
 .image-resize {
-    width: 1000px;
-    height: auto; /* Maintains aspect ratio */
+  width: 1000px;
+  height: auto;
+}
+
+.fade-in-sectionX {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 0.8s ease-in, transform 0.8s ease-in; /* Adjust the duration and easing as desired */
+}
+
+.fade-in-sectionX.loaded {
+  opacity: 1;
+  transform: translateX(0); /* Move to the original position */
+}
+
+.fade-in-sectionY {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-in, transform 0.8s ease-in; /* Adjust the duration and easing as desired */
+}
+
+.fade-in-sectionY.loaded {
+  opacity: 1;
+  transform: translateY(0); /* Move to the original position */
 }
 
 .profile-resize {
-    width: auto;
-    height: 400px; /* Maintains aspect ratio */
+  width: auto;
+  height: 400px;
+}
+.custom-button {
+  margin-top: 10px;
+}
+
+.custom-button:hover {
+  margin-top: 0;
 }
 
 .home-contact {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none; /* Remove default list styles */
-    padding-left: 0; /* Remove default padding for lists */
-    margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0; /* Remove default padding for lists */
+  margin: 20px 0px;
 }
 
 .home-contact > .social-icon {
-    margin-right: 15px;
+  margin-top: 20px;
+  margin-right: 15px;
+  transition: 0.3s ease;
+}
+
+.home-contact > .social-icon:hover {
+  margin-top: 10px;
+}
+
+.container-narrow {
+  max-width: 1024px;
+  margin: 0px auto;
 }
