@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Resume() {
+function Experience() {
     return (
         <div>
-            <h2>My Resume</h2>
+            <h2>My Experience</h2>
             <h3>Education</h3>
             <p>[Your Education Details]</p>
             <h3>Experience</h3>
@@ -12,4 +12,4 @@ function Resume() {
     );
 }
 
-export default Resume;
+export default Experience;

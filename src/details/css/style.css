@@ -1,5 +1,5 @@
 .image-resize {
-    width: 800px;
+    width: 1000px;
     height: auto; /* Maintains aspect ratio */
 }
 
@@ -13,8 +13,9 @@
     flex-direction: row;
     list-style-type: none; /* Remove default list styles */
     padding-left: 0; /* Remove default padding for lists */
+    margin: 20px 0px;
 }
 
-.home-contact > div {
-    margin: 10px 3px;
+.home-contact > .social-icon {
+    margin-right: 15px;
 }
