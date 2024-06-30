@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.79a04bab.css",
-    "main.js": "/myresume/static/js/main.1bf9c846.js",
+    "main.js": "/myresume/static/js/main.d2f78c80.js",
     "static/js/453.8952797a.chunk.js": "/myresume/static/js/453.8952797a.chunk.js",
     "static/media/2.png": "/myresume/static/media/2.ea7a1cb5712dbfb17da1.png",
     "static/media/5.png": "/myresume/static/media/5.70128cb1b622d4b49891.png",
@@ -11,6 +11,7 @@
     "static/media/6.png": "/myresume/static/media/6.e699ffc80b7aa8f30b96.png",
     "static/media/7.png": "/myresume/static/media/7.d0296160a83a1a1a6e47.png",
     "static/media/tersornpat2.jpg": "/myresume/static/media/tersornpat2.03a555b1ac39d108612a.jpg",
+    "static/media/Unofficial_Transcript.png": "/myresume/static/media/Unofficial_Transcript.ad3ced148ccbc0002717.png",
     "static/media/education.png": "/myresume/static/media/education.7b3021f3495d1e54dc18.png",
     "static/media/ScienceMajorCert.jpg": "/myresume/static/media/ScienceMajorCert.afa05e33e9e82886b084.jpg",
     "static/media/penguin.png": "/myresume/static/media/penguin.ef4100e956dae7f79660.png",
@@ -21,11 +22,11 @@
     "index.html": "/myresume/index.html",
     "static/media/close.svg": "/myresume/static/media/close.f425e731811e21a0ad593a0f4b9f4904.svg",
     "main.79a04bab.css.map": "/myresume/static/css/main.79a04bab.css.map",
-    "main.1bf9c846.js.map": "/myresume/static/js/main.1bf9c846.js.map",
+    "main.d2f78c80.js.map": "/myresume/static/js/main.d2f78c80.js.map",
     "453.8952797a.chunk.js.map": "/myresume/static/js/453.8952797a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79a04bab.css",
-    "static/js/main.1bf9c846.js"
+    "static/js/main.d2f78c80.js"
   ]
 }
