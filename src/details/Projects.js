@@ -29,52 +29,52 @@ function Projects() {
   const certData = [
     {
       title: 'SET Cooperative Certificate',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'This is Certificate of The Stock Exchange of Thailand (SET). I am internship student worked with Trading System for 6 months.',
       imageSrc: setCert
     },
     {
       title: 'Majority of Science Certificate',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'This is Certificate of Majority of Science. I got this certificate by passed MVC Design Pattern exam when i was 3rd year.',
       imageSrc: scienceCert
     },
     {
       title: '42 Bangkok Discovert Picsine Certificate',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'This is Certificate of Elective Subject: Fun With Code that host by 42 Bangkok.This Subject we learned about HTML CSS and UNIX command this coruse was teached by concept "learning by doing" and rushing course in 7 days.',
       imageSrc: discoveryCert
     },
   ]
   const cardsData = [
     {
       title: 'Help You Rich ChatBot (อยากรวยช่วยได้)',
-      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'HelpYouRich ChatBot is My team AI Project. That learn how to do rule based in AI. This project i was using Line ChatBot with flask as webhook dialogflow and Thai-Lottery API. This madde for check winning lottery and predicted number from your dream details.',
       imageSrc: HelpYouRich,
       additionalImages: [HelpYouRich2, HelpYouRich3, HelpYouRich4, HelpYouRich5, HelpYouRich6, HelpYouRich7]
     },
     {
       title: 'Fullstack-Hostpital ER,API',
-      text: 'This is another card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'Fullstack Hospital is My team Fullstack project. That learn how fullstack do to each project since Desgin ER diagram ,coding backend-frontend ,hosting server ,config nginx and install cert to make https.',
       imageSrc: Hostpital,
       additionalImages: [Hostpital2, Hostpital3]
     },
     {
       title: 'Alumni Flask',
-      text: 'This is yet another card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'Alumni with Python Flask is My team OS Project. That learn how to access database deploy and automate webhook with Microsoft Azure.',
       imageSrc: Alumni,
     },
     {
       title: 'Flask MVC',
-      text: 'This is another card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'Flask MVC is My Flask Project. That use MVC Design Pattern splited flask structure to Model(MySql) View(JinjaTemplate(HTML)) Controller(Python-Flask) and i used this do the exam.',
       imageSrc: FlaskMVC,
     },
     {
       title: 'FastAPI MVC',
-      text: 'This is yet another card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'FastAPI MVC is My Fast-API Project. That use MVC Design Pattern but using FastAPI. In FastAPI it has just like Swagger-UI so it is more easy for config routing that Flask so i use it to do exam after Flask.',
       imageSrc: FastAPI,
       additionalImages: [FastAPI2, FastAPI3]
     },
     {
       title: 'DIVA WalkThrough',
-      text: 'This is another card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      text: 'DIVA Walkthough is My System Security project. it use DIVA (Damn insecure and vulnerable App) Android Application which has high vulnerability following the OWASP Mobile Top 10 like insecure database, log sensitive information. i presented this to my friend how to use each vulnerability.',
       imageSrc: Diva,
       additionalImages: [Diva2, Diva3, Diva4]
     }
