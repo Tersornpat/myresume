@@ -37,7 +37,7 @@
 .popup-content {
   background: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   flex-direction: column;
   padding: 20px;
   border-radius: 10px;
@@ -52,9 +52,24 @@
   max-height: 70vh;
   max-width: 100%;
   margin-bottom: 10px;
-  justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+    .popup-content {
+        background: white;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        width: 80vw;
+        height: 80vh;
+        overflow: hidden;
+      }
+  }
+  
 .image-thumbnails {
   display: flex;
   justify-content: center;
