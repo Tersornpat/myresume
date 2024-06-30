@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/myresume/static/css/main.41f5cedf.css",
-    "main.js": "/myresume/static/js/main.08bbc496.js",
+    "main.css": "/myresume/static/css/main.639b97f2.css",
+    "main.js": "/myresume/static/js/main.874d9b53.js",
     "static/js/453.8952797a.chunk.js": "/myresume/static/js/453.8952797a.chunk.js",
+    "static/media/2.png": "/myresume/static/media/2.ea7a1cb5712dbfb17da1.png",
+    "static/media/5.png": "/myresume/static/media/5.70128cb1b622d4b49891.png",
+    "static/media/3.png": "/myresume/static/media/3.363259f75fe4fcb047da.png",
+    "static/media/4.png": "/myresume/static/media/4.32e4ecb2c06c725d4eda.png",
+    "static/media/1.png": "/myresume/static/media/1.14fa0b55781302b2e4d2.png",
+    "static/media/6.png": "/myresume/static/media/6.e699ffc80b7aa8f30b96.png",
+    "static/media/7.png": "/myresume/static/media/7.d0296160a83a1a1a6e47.png",
     "static/media/tersornpat2.jpg": "/myresume/static/media/tersornpat2.03a555b1ac39d108612a.jpg",
+    "static/media/education.png": "/myresume/static/media/education.7b3021f3495d1e54dc18.png",
     "static/media/penguin.png": "/myresume/static/media/penguin.ef4100e956dae7f79660.png",
     "static/media/wave.jpg": "/myresume/static/media/wave.80db8d39aa3d80e24c6b.jpg",
+    "static/media/internship.png": "/myresume/static/media/internship.bc52be707c51cbd35f20.png",
     "index.html": "/myresume/index.html",
-    "main.41f5cedf.css.map": "/myresume/static/css/main.41f5cedf.css.map",
-    "main.08bbc496.js.map": "/myresume/static/js/main.08bbc496.js.map",
+    "static/media/close.svg": "/myresume/static/media/close.f425e731811e21a0ad593a0f4b9f4904.svg",
+    "main.639b97f2.css.map": "/myresume/static/css/main.639b97f2.css.map",
+    "main.874d9b53.js.map": "/myresume/static/js/main.874d9b53.js.map",
     "453.8952797a.chunk.js.map": "/myresume/static/js/453.8952797a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41f5cedf.css",
-    "static/js/main.08bbc496.js"
+    "static/css/main.639b97f2.css",
+    "static/js/main.874d9b53.js"
   ]
 }
