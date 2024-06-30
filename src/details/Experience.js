@@ -58,7 +58,7 @@ function Experience() {
                                     </div>
                                     <div className="col-sm-3">
                                         <div className="row">
-                                            <div className="col-12 pb-4 fw-bolder text-center">FrameWorks & lib</div>
+                                            <div className="col-12 pb-4 fw-bolder text-center">Frameworks & lib</div>
                                             <ul className='skill-list'>
                                                 <li><div className="col-12 pb-1 ">Python-Flask</div></li>
                                                 <li><div className="col-12 pb-1 ">Python-FastApi</div></li>
