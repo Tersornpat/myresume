@@ -12,7 +12,7 @@ function Experience() {
                 </div>
                 <div className="text-center">
                     <p className="mx-auto mb-4" style={{ maxWidth: '600px' }}>
-                        I offer services fit for any website or app. I can quickly maximize timely deliverables for real-time schemas.
+                        Here is my Journy Education & Experience paths for 4 years in KMITL.
                     </p>
                 </div>
                 <div>

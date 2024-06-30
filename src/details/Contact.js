@@ -8,9 +8,9 @@ function Contact() {
                     <div className="contact-info ">
                         <h2 className='mb-1'>Contact Information</h2>
                         <div className='m-4'>
-                            <p><strong>Email:</strong>  s.amthiangtham@gmail.com</p>
-                            <p><strong>Phone:</strong>  (+66) 865448466</p>
-                            <p><strong>Address:</strong>  near Si Thepha MRT Yellow line</p>
+                            <p>Email:  <strong>s.amthiangtham@gmail.com</strong></p>
+                            <p>Phone:  <strong>(+66) 865448466</strong></p>
+                            <p>Address: <strong>near Si Thepha MRT Yellow line</strong></p>
                         </div>
                     </div>
                 </div>
