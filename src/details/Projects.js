@@ -23,10 +23,16 @@ import Diva4 from "../img/projects_img/DIVA WalkThrough/4.png";
 import setCert from '../img/cert_img/SETInternshipCert.jpg';
 import scienceCert from '../img/cert_img/ScienceMajorCert.jpg';
 import discoveryCert from '../img/cert_img/DiscoveryPicsine.jpg';
+import Transcript from '../img/cert_img/Unofficial_Transcript.png';
 
 
 function Projects() {
   const certData = [
+    {
+      title: 'Unofficial Transcript',
+      text: 'Unofficial Transcript Faculty Science, Majority Computer Science, King Mongkut\'s Institute of Technology Ladkrabang.',
+      imageSrc: Transcript
+    },
     {
       title: 'SET Cooperative Certificate',
       text: 'This is Certificate of The Stock Exchange of Thailand (SET). I am internship student worked with Trading System for 6 months.',
