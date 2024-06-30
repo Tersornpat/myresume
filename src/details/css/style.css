@@ -109,3 +109,40 @@
   margin-left: 30px;
   text-decoration: none;
 }
+
+@media (max-width: 1000px) {
+  .profile-resize {
+    width: auto;
+    height: 200px;
+  }
+  .education-image {
+    max-width: 400px;
+    max-height: 200px;
+  }
+  .internship-image {
+    width: 200px;
+    max-height: 175px;
+  }
+  .image-resize {
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 650px) {
+  .skill-list li {
+    margin-bottom: 5px;
+    margin-left: 0px;
+    list-style:  none;
+  }
+  .skill-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .internship-container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}

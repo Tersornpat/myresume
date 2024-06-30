@@ -15,7 +15,7 @@ function Home() {
     }, []);
 
     return (
-        <div className='container mt-3 px-3'>
+        <div className='container px-3'>
             <div className='row'>
                 <div className='col-lg-6 p-2 d-flex justify-content-center align-items-center'>
                     <img className='image-resize' src={penguin}></img>

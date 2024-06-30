@@ -22,7 +22,7 @@ function Experience() {
                     <div className="text-center mt-5 mb-5">
                         <h2 className="marker marker-center">Internship & Experience</h2>
                     </div>
-                    <div className=' d-flex '>
+                    <div className='internship-container d-flex '>
                         <img className="internship-image" src={internship} alt="internship" />
                         <div className='m-5'>
                             <p className=' fw-semibold'>Mainly use</p>

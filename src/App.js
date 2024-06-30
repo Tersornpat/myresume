@@ -27,7 +27,7 @@ function App() {
     <Router basename="/myresume">
       <div>
         <Nav setNavHeight={setNavHeight} />
-        <main className="content mt-5">
+        <main className="content">
           <section id="home" className="background-lg" style={{ paddingTop: `${navHeight + height}px` }}>
             <Home />
             <img className={`img-spliter fade-in-sectionY ${isLoaded ? 'loaded' : ''}`} src={waveImage} alt='wave'></img>

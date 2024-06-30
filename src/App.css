@@ -3,11 +3,17 @@ html {
 }
 
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .background-lg {
   background-color: #f4f6f8;
+}
+
+
+.hamburger-menu{
+  position: absolute;
+  left: -9999px;
 }
 
 nav {
@@ -25,6 +31,7 @@ nav {
   align-items: center; /* Add this line to center items vertically */
 }
 
+
 nav .logo {
   margin-left: 20px;
   font-size: 1.9rem;
@@ -32,7 +39,7 @@ nav .logo {
 }
 
 nav .logo a {
-  text-decoration: none; 
+  text-decoration: none;
   color: black;
 }
 nav .download {
@@ -62,17 +69,35 @@ nav ul li a {
 nav ul li a:hover {
   font-weight: bolder; /* Make font bolder on hover */
 }
+@media (max-width: 900px) {
+  nav ul li {
+    position: absolute;
+    left: -9999px;
+  }
+  nav .download {
+    margin-right: 40px;
+    position: relative;
+    left: 0px;
+  }
+  .sidebar{
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .logo {
+    margin-left: 20px;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+}
 
 section {
   padding-top: 0px;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
-.img-spliter{
+.img-spliter {
   width: 100%;
   transition: 0.3s ease;
 }
@@ -80,10 +105,10 @@ section {
 .fade-in-sectionY {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 1s ease-in-out, transform 14s ease-in-out; 
+  transition: opacity 1s ease-in-out, transform 14s ease-in-out;
 }
 
 .fade-in-sectionY.loaded {
   opacity: 1;
-  transform: translateY(0); 
+  transform: translateY(0);
 }
