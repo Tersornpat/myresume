@@ -15,7 +15,7 @@ function Home() {
     }, []);
 
     return (
-        <div className='container px-3'>
+        <div className='container mt-3 px-3'>
             <div className='row'>
                 <div className='col-lg-6 p-2 d-flex justify-content-center align-items-center'>
                     <img className='image-resize' src={penguin}></img>
@@ -29,7 +29,7 @@ function Home() {
                             I am Sornpat Amthiangtham
                         </h1>
                         <p className='lead fw-normal mt-3 text-left'>
-                            Full Stack Web Developer
+                            FullStack Web Developer & BackEnd Developer
                         </p>
                         <div className='home-contact'>
                             <SocialIcon className='social-icon' bgColor="black" fgColor="white" url="https://github.com/tersornpat" />

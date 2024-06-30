@@ -42,13 +42,13 @@ const Nav = ({ setNavHeight }) => {
     return (
         <nav id="header-nav" className="sidebar" ref={navRef}>
             <div className="logo">
-                <a href="#home">Sornpat Am.</a>
+                <a href="#home">Sornpat Am</a>
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div className='download'>

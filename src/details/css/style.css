@@ -41,7 +41,7 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding-left: 0; /* Remove default padding for lists */
+  padding-left: 0;
   margin: 20px 0px;
 }
 
@@ -58,4 +58,54 @@
 .container-narrow {
   max-width: 1024px;
   margin: 0px auto;
+}
+.available {
+  color: rgb(6, 179, 0);
+}
+
+.space {
+  display: inline-block;
+  width: 200px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.card-image {
+  width: 100%;
+  background-color: #fff;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.education-image {
+  max-width: 1000px;
+  max-height: 300px;
+}
+
+.internship-image {
+  width: auto;
+  max-height: 300px;
+}
+
+.skill-container {
+  width: 100%;
+  height: 100%;
+}
+.skill-list {
+  margin-left: 10px;
+  list-style: square;
+}
+
+.skill-list li {
+  margin-bottom: 5px;
+  margin-left: 30px;
+  text-decoration: none;
 }
