@@ -20,9 +20,29 @@ import Diva from "../img/projects_img/DIVA WalkThrough/1.png";
 import Diva2 from "../img/projects_img/DIVA WalkThrough/2.png";
 import Diva3 from "../img/projects_img/DIVA WalkThrough/3.png";
 import Diva4 from "../img/projects_img/DIVA WalkThrough/4.png";
+import setCert from '../img/cert_img/SETInternshipCert.jpg';
+import scienceCert from '../img/cert_img/ScienceMajorCert.jpg';
+import discoveryCert from '../img/cert_img/DiscoveryPicsine.jpg';
 
 
 function Projects() {
+  const certData = [
+    {
+      title: 'SET Cooperative Certificate',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      imageSrc: setCert
+    },
+    {
+      title: 'Majority of Science Certificate',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      imageSrc: scienceCert
+    },
+    {
+      title: '42 Bangkok Discovert Picsine Certificate',
+      text: 'This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.',
+      imageSrc: discoveryCert
+    },
+  ]
   const cardsData = [
     {
       title: 'Help You Rich ChatBot (อยากรวยช่วยได้)',
@@ -62,7 +82,19 @@ function Projects() {
 
   return (
     <div className="container mt-3 d-flex flex-column justify-content-center align-items-center">
-    <h2 className='mb-3'>Projects</h2>
+    <h2 className='mb-3'>Certificate</h2>
+      <div className="mt-3 mb-3 row row-cols-1 row-cols-md-3 g-5">
+        {certData.map((card, index) => (
+          <Card
+            key={index}
+            title={card.title}
+            text={card.text}
+            imageSrc={card.imageSrc}
+            additionalImages={card.additionalImages}
+          />
+        ))}
+      </div>
+      <h2 className='mt-5'>Projects</h2>
       <div className="mt-3 row row-cols-1 row-cols-md-3 g-5">
         {cardsData.map((card, index) => (
           <Card
