@@ -30,13 +30,13 @@ const Nav = ({ setNavHeight }) => {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <a className='download' href='https://drive.google.com/file/d/1mllEBEEVJWu4_9hmaSQg3WChtinUtEUB/view'>
+            <a className='download' href='https://drive.google.com/file/d/1CZE6hBALiLjCl0P5_mrW7sbuvRAJH3PK/view?usp=sharing'>
                 <button className="btn btn-danger">
                     Resume PDF
                 </button>
             </a>
             <div class="hamburger-menu" id="hamburger-menu">
-            hamburger
+                hamburger
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>

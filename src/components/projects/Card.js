@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../projects/style.css';
-import close from '../../img/projects_img/close.svg'
 
 const Card = ({ title, text, imageSrc, additionalImages = [] }) => {
     // State to manage the popup visibility and the current image

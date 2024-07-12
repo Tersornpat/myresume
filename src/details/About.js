@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react';
 import './css/style.css'
 
-import youngman from '../img/about_img/tersornpat2.jpg'
+import youngman from '../img/about_img/tersornpat3.jpg'
 
 function About() {
     const [isLoaded, setIsLoaded] = useState(false);
