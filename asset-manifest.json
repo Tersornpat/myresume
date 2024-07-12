@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.79a04bab.css",
-    "main.js": "/myresume/static/js/main.d2f78c80.js",
+    "main.js": "/myresume/static/js/main.5460226c.js",
     "static/js/453.8952797a.chunk.js": "/myresume/static/js/453.8952797a.chunk.js",
     "static/media/2.png": "/myresume/static/media/2.ea7a1cb5712dbfb17da1.png",
     "static/media/5.png": "/myresume/static/media/5.70128cb1b622d4b49891.png",
@@ -10,7 +10,7 @@
     "static/media/1.png": "/myresume/static/media/1.14fa0b55781302b2e4d2.png",
     "static/media/6.png": "/myresume/static/media/6.e699ffc80b7aa8f30b96.png",
     "static/media/7.png": "/myresume/static/media/7.d0296160a83a1a1a6e47.png",
-    "static/media/tersornpat2.jpg": "/myresume/static/media/tersornpat2.03a555b1ac39d108612a.jpg",
+    "static/media/tersornpat3.jpg": "/myresume/static/media/tersornpat3.b5ae88f298b495ebfb17.jpg",
     "static/media/Unofficial_Transcript.png": "/myresume/static/media/Unofficial_Transcript.ad3ced148ccbc0002717.png",
     "static/media/education.png": "/myresume/static/media/education.7b3021f3495d1e54dc18.png",
     "static/media/ScienceMajorCert.jpg": "/myresume/static/media/ScienceMajorCert.afa05e33e9e82886b084.jpg",
@@ -20,13 +20,12 @@
     "static/media/internship.png": "/myresume/static/media/internship.bc52be707c51cbd35f20.png",
     "static/media/DiscoveryPicsine.jpg": "/myresume/static/media/DiscoveryPicsine.940d0283cb39d91a49db.jpg",
     "index.html": "/myresume/index.html",
-    "static/media/close.svg": "/myresume/static/media/close.f425e731811e21a0ad593a0f4b9f4904.svg",
     "main.79a04bab.css.map": "/myresume/static/css/main.79a04bab.css.map",
-    "main.d2f78c80.js.map": "/myresume/static/js/main.d2f78c80.js.map",
+    "main.5460226c.js.map": "/myresume/static/js/main.5460226c.js.map",
     "453.8952797a.chunk.js.map": "/myresume/static/js/453.8952797a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79a04bab.css",
-    "static/js/main.d2f78c80.js"
+    "static/js/main.5460226c.js"
   ]
 }
