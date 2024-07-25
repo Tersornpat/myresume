@@ -12,11 +12,12 @@
 
 .image-container {
   overflow: hidden;
+  padding: 15px;
+  height: 260px;
 }
 
 .card-image {
   width: 100%;
-  height: auto;
 }
 
 .popup-overlay {
@@ -51,7 +52,6 @@
 .popup-image {
   max-height: 70vh;
   max-width: 100%;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 500px) {
@@ -97,4 +97,9 @@
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.link {
+  margin-left: 15px;
+  padding-bottom: 10px;
 }

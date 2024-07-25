@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import '../projects/style.css';
 
-const Card = ({ title, text, imageSrc, additionalImages = [] }) => {
+function checkUrl(url) {
+    return url || "";
+}
+
+const Card = ({ title, text, imageSrc, url, additionalImages = [] }) => {
     // State to manage the popup visibility and the current image
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     const [currentImage, setCurrentImage] = useState(imageSrc);
-
     // Handle card click to open the popup
     const handleCardClick = () => {
         setIsPopupOpen(true);
@@ -21,16 +24,20 @@ const Card = ({ title, text, imageSrc, additionalImages = [] }) => {
         setCurrentImage(newImage);
     };
 
+    checkUrl(url)
     return (
         <>
             <div className="col">
-                <div className="card h-100" onClick={handleCardClick}>
-                    <div className='image-container'>
+                <div className="card h-100">
+                    <div className='image-container mt-2' onClick={handleCardClick}>
                         <img src={imageSrc} className="card-image" alt={title} />
                     </div>
-                    <div className="card-body">
+                    <div className="card-body" onClick={handleCardClick}>
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{text}</p>
+                    </div>
+                    <div className='link'>
+                        {url ? <a href={url}>{url}</a> : <a></a>}
                     </div>
                 </div>
             </div>
@@ -61,7 +68,9 @@ const Card = ({ title, text, imageSrc, additionalImages = [] }) => {
 
                                 ))}
                             </div>
-                            <button className="btn btn-outline-danger close-button" onClick={handleClosePopup}> CLOSE</button>
+                            <div>
+                                <button className="btn btn-outline-danger close-button" onClick={handleClosePopup}> CLOSE</button>
+                            </div>
                         </div>
                     </div>
                 </div>
