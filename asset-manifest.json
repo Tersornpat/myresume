@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/myresume/static/css/main.ae20fad8.css",
-    "main.js": "/myresume/static/js/main.e68e0ca3.js",
+    "main.js": "/myresume/static/js/main.b80876ef.js",
     "static/js/453.8952797a.chunk.js": "/myresume/static/js/453.8952797a.chunk.js",
     "static/media/1.jpg": "/myresume/static/media/1.dbc00720d0ac3b8b5a51.jpg",
     "static/media/2.png": "/myresume/static/media/2.ea7a1cb5712dbfb17da1.png",
     "static/media/5.png": "/myresume/static/media/5.70128cb1b622d4b49891.png",
-    "static/media/Official_Transcript.png": "/myresume/static/media/Official_Transcript.e148bf40c0590b294c0d.png",
     "static/media/3.png": "/myresume/static/media/3.363259f75fe4fcb047da.png",
     "static/media/4.png": "/myresume/static/media/4.32e4ecb2c06c725d4eda.png",
     "static/media/kmitl reg.png": "/myresume/static/media/kmitl reg.51bbb270e42f8aade43a.png",
-    "static/media/Certificate_Of_Academic_Degree_Completion.png": "/myresume/static/media/Certificate_Of_Academic_Degree_Completion.928a1c82c89d025c9113.png",
     "static/media/1.png": "/myresume/static/media/1.14fa0b55781302b2e4d2.png",
     "static/media/6.png": "/myresume/static/media/6.e699ffc80b7aa8f30b96.png",
     "static/media/7.png": "/myresume/static/media/7.d0296160a83a1a1a6e47.png",
     "static/media/tersornpat3.jpg": "/myresume/static/media/tersornpat3.b5ae88f298b495ebfb17.jpg",
     "static/media/education.png": "/myresume/static/media/education.7b3021f3495d1e54dc18.png",
     "static/media/ScienceMajorCert.jpg": "/myresume/static/media/ScienceMajorCert.afa05e33e9e82886b084.jpg",
+    "static/media/Official_Transcript.png": "/myresume/static/media/Official_Transcript.4df2b532e5698c9319bf.png",
+    "static/media/Certificate_Of_Academic_Degree_Completion.png": "/myresume/static/media/Certificate_Of_Academic_Degree_Completion.68091755628278e38cdd.png",
     "static/media/penguin.png": "/myresume/static/media/penguin.ef4100e956dae7f79660.png",
     "static/media/SETInternshipCert.jpg": "/myresume/static/media/SETInternshipCert.7e8288787755a4e851b7.jpg",
     "static/media/wave.jpg": "/myresume/static/media/wave.80db8d39aa3d80e24c6b.jpg",
@@ -24,11 +24,11 @@
     "static/media/DiscoveryPicsine.jpg": "/myresume/static/media/DiscoveryPicsine.940d0283cb39d91a49db.jpg",
     "index.html": "/myresume/index.html",
     "main.ae20fad8.css.map": "/myresume/static/css/main.ae20fad8.css.map",
-    "main.e68e0ca3.js.map": "/myresume/static/js/main.e68e0ca3.js.map",
+    "main.b80876ef.js.map": "/myresume/static/js/main.b80876ef.js.map",
     "453.8952797a.chunk.js.map": "/myresume/static/js/453.8952797a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae20fad8.css",
-    "static/js/main.e68e0ca3.js"
+    "static/js/main.b80876ef.js"
   ]
 }
