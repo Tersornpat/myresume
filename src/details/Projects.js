@@ -62,12 +62,12 @@ function Projects() {
   const cardsData = [
     {
       title: 'Simulation order feeding in trading system\'s test environment (internship project)',
-      text: 'Simulation order feeding in trading sytem is automatic feed order (real transaction) with control panel to create and test the worst situation that\'s can happen in Stock Market',
+      text: 'Simulation of order feeding in a trading system with automatic feed orders (real transactions) and a control panel to create and test the worst situations that can happen in the Stock Market.',
       imageSrc: SimulationTrading,
     },
     {
       title: 'CRUD of complex database project (internship project)',
-      text: 'CRUD of complex database project use to config database that\'s is a access control database manage who\'s can Read/Write.',
+      text: 'CRUD of a complex database project used to configure a database that is an access control database managing who can Read/Write.',
       imageSrc: CRUD,
     },
     {
